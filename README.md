@@ -97,7 +97,7 @@
       * 호환성이 필요한 경우
       * 앱이 매우 낮은 지연시간에 민감한 경우
 
-### G Suite + Playstore 
+### Track2 G Suite + Playstore 
 
   * 관리자 입장에서의 G Suite
   * 공동 작업 가능 → 공동 생산성 향상
@@ -142,4 +142,83 @@
     * Currents Beta, new Google+
     * G Suite access with Context-aware
     
-### Next 19' Extended Google Next 다녀왔어요!
+### Track2 Next 19' Extended Google Next 다녀왔어요!
+
+  * Google Cloud Seoul Region
+  * Anthos
+    * 멀티 cloud platform
+    * 개발, 배포, 보안, 운영 통합해줌
+    * kubernetes 기반
+  * Cloud Run
+    * serverless environment
+    * stackdriver 통한 monitoring
+  * Cloud Run on GKE
+    * GKE 위에서 Cloud Rung 실행
+  * Cloud Data Fusion
+    * 데이터 통합 solution
+    * drag-and-drop으로 클릭 몇 번으로 가능
+    * 별도 코드 작성하지 않아도 됨
+  * Cloud Code
+    * GCP 개발 플러그인
+    * 앱 개발/배포 쉽게 도와줌
+  * BigQuery
+    * BI Engine (1초 미만 query 응답시간 + 높은 동시성 → BigQuery에 저장된 데이터를 분석)
+    * Connected Sheets (새로운 모델 추가 + 전문지식 없어도 handling 가능)
+    * BigQuery ML (K-Means Clustering + 행렬 인수분해 + 모델 임포트)
+  * AutoML Tables
+    * 모델 자동 작성/배포
+  * AutoML Video Intelligence
+    * 특정 tagging 통해 비디오 커스텀 모델 제작 가능
+  * Document Understanding AI
+    * 문서 내의 데이터 자동 분석
+  * Contact Center AI
+    * Google의 AI 통한 고객 관리
+    * dialogflow enterprise 기술 사용해 자동 catalog화 + 분석
+  * Cloud Dataflow SQL
+    * 표준 sql 사용해서 일괄 처리, 스트림 데이터 처리 통합하는 파이프라인 구축 가능
+  * Cloud BI Solution
+    * Big Query 기반
+    * 파트너사의 BI툴로 시각 분석 가능
+    * BQ ML 통한 예측
+    * BG GIS 통한 지리 분석
+  * Open Source Project 협력
+    * GCP와 오픈 소스의 협력
+  * Managed Service for MS Active Directory
+    * MS Active Directory 실행하는 Google Cloud Service
+  * Apigee Hybrid
+    * multi cloud 환경에서 api 관리
+  * Google Cloud Storage ICE Cold Layer
+    * 매우 저렴
+  * Cloud Security Commang Center
+    * GCP의 보안 중앙 센터
+    * 예방 탐지 응답
+    * 실시간 알림
+  * Cloud SQL for PostgreSQL
+  * Data Catalog
+    * 통합 데이터 관리 서비스
+    * serverless 환경에서 이용 가능
+  * Android Built-in Security Key
+    * 2차 비밀번호
+  * G Suite Tool 강화
+  * reCAPTCHA Enterprise
+    * 사기성 호라동, 스팸으로부터 website 보호
+
+### Track1 BQ ML CASTLE
+  * GCP Services Related to AI
+    * AutoML
+    * BG ML
+    * Cloud ML Engine
+  * BQ ML Syntax
+    * SQL만으로 ML 할 수 있음
+  * Create Model → Evaluate Model → Prediction
+
+<hr/>
+
+###### 발표 자료 및 참고 자료
+
+* [Track1 beyond kubernetes (Istio, spinnaker, knative, kubeflow)] https://bcho.tistory.com/  
+* [Track1 Knative로 서버리스 워크로드 구현] https://www.slideshare.net/JinwoongKim8/knative?fbclid=IwAR1QolrNYOoVxy5DAuUGxkbfWrNHjBbudF9bZ2bD0tnhZpqX6FVqZdIXTng  
+* [Track1 구글의 차세대 데이터베이스 Cloud Spanner 맛보기] https://medium.com/@jwlee98  
+* [Track2 G Suite + Playstore] https://www.slideshare.net/JasonPark164/mdm-vault-dlp?fbclid=IwAR3SyZeFZVSQxEzuNd1rA8Mcc_ttlUiXiA36Iy5ByqJp8YNrE9v4z8hL7Sc  
+* [Track2 Next 19' Extended Google Next 다녀왔어요!] https://drive.google.com/file/d/1iegfq0cOwxvMt_Bmia7bV5_EY7HePTE7/view?fbclid=IwAR2SzOcFs9q_f7mI-6PeeLU4873e2bDsNVW89nXelWxi2SrsCZNguvBhO3M  
+* [Track1 BQ ML CASTLE] https://docs.google.com/presentation/d/10jYewv5mRoKbfgmSCYTtdxuZmDkniCcwtq5vq8NMF6c/edit?fbclid=IwAR1XwS7gAITw6kl5Z3V8pELAqdN66j1lW69xuX9RS-ONPafThfdNdPnsqIc#slide=id.g43abcd927d_0_104
